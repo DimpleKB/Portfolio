@@ -5,7 +5,7 @@ import CNPdf from "../certificate/CN.pdf";
 import GenAiPdf from "../certificate/genAi.pdf";
 import GenmodelsPdf from "../certificate/generativemodels.pdf";
 import TransPdf from "../certificate/openaitransformers.pdf";
-import PromptPdf from "../certificate/prompteng.pdf";
+import PromptPdf from "../certificate/Prompteng.pdf";
 import Achievements from "./achievements"
 function CertificateGallery() {
   const certificates = [
