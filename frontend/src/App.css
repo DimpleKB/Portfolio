@@ -1,0 +1,13 @@
+
+.navlink:hover{
+    color:blue;
+    cursor:pointer;
+}
+
+button{
+    background-color: blue;
+    padding: 10px 10px;
+    color: white;
+    border-radius: 10px;
+    border-color: rgb(212, 221, 228);
+}
