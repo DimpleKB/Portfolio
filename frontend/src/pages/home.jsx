@@ -1,5 +1,6 @@
 import React from "react";
 import profilePic from '../profile pic.jpg';
+import resume from "../resume/DimpleKB_resume.pdf";
 
 function Home() {
   const scrollToSection = (id) => {
@@ -96,7 +97,26 @@ function Home() {
             web applications using React.js, Node.js, MongoDB, and SQLite. Passionate about learning
             new technologies and solving real-world problems.
           </p>
-          <button>Download Resume</button>
+          <a
+            href={resume}
+            download="Dimple_KB_Resume.pdf"
+            style={{
+              display: "inline-block",
+              marginTop: "20px",
+              padding: "12px 24px",
+              borderRadius: "12px",
+              backgroundColor: "#2563eb",
+              color: "#ffffff",
+              fontWeight: "600",
+              textDecoration: "none",
+              transition: "background-color 0.3s, transform 0.2s",
+            }}
+            onMouseOver={(e) => (e.target.style.backgroundColor = "#1e40af")}
+            onMouseOut={(e) => (e.target.style.backgroundColor = "#2563eb")}
+          >
+            📄 Download Resume
+          </a>
+
         </div>
 
         {/* Profile Image */}

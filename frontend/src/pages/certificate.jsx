@@ -1,11 +1,11 @@
 import React from "react";
 import UiuxPdf from "../certificate/uiux.pdf";
 import AiPdf from "../certificate/Ai.pdf";
-import CNPdf from "../certificate/CN .pdf";
-import GenAiPdf from "../certificate/gen Ai .pdf";
-import GenmodelsPdf from "../certificate/generative models.pdf";
-import TransPdf from "../certificate/openai transformers.pdf";
-import PromptPdf from "../certificate/prompt eng.pdf";
+import CNPdf from "../certificate/CN.pdf";
+import GenAiPdf from "../certificate/genAi.pdf";
+import GenmodelsPdf from "../certificate/generativemodels.pdf";
+import TransPdf from "../certificate/openaitransformers.pdf";
+import PromptPdf from "../certificate/prompteng.pdf";
 import Achievements from "./achievements"
 function CertificateGallery() {
   const certificates = [

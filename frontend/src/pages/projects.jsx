@@ -2,7 +2,7 @@ import React from "react";
 import Finai from "../proj_img/finai.webp";
 import Nutri from "../proj_img/nutri.webp";
 import Port from "../proj_img/port.jpg";
-import Certificate from "./certificate";
+// import Certificate from "./certificate";
 function Projects() {
   const projects = [
     {
@@ -37,7 +37,7 @@ function Projects() {
         "Designed a personal portfolio showcasing projects, skills, and GitHub contributions.",
         "Ensured responsive design across devices, improving load time by 20%.",
       ],
-      github: "https://github.com/yourusername/portfolio",
+      github: "https://github.com/DimpleKB/Portfolio",
       liveDemo:"https://7lvl71cq-5173.inc1.devtunnels.ms/" ,
     },
   ];
